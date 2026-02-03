@@ -9,158 +9,101 @@
 body {
   background: linear-gradient(135deg, #0f172a, #020617);
   color: #e5e7eb;
-  padding: 30px;
 }
 
-/* ================= TITLE ================= */
-h1 {
+/* ================= MAIN CONTAINER ================= */
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction : row;
+  justify-content: center;
+
+}
+
+/* ================= HEADING ================= */
+.main-head {
   text-align: center;
-  margin-bottom: 25px;
-  font-size: 32px;
-  font-weight: 800;
-  color: #38bdf8;
-  letter-spacing: 1px;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: #f97316;
 }
 
-/* ================= SEARCH INPUT ================= */
-input {
-  display: block;
-  margin: 0 auto 30px auto;
-  width: 300px;
-  padding: 12px 15px;
-  border-radius: 10px;
-  border: none;
-  outline: none;
-  font-size: 14px;
-  background-color: #020617;
-  color: #e5e7eb;
-  box-shadow: 0 0 0 1px #1e293b;
+.main-container > p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #cbd5f5;
 }
 
-input::placeholder {
-  color: #94a3b8;
+/* ================= GRID ================= */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 25px;
 }
 
-input:focus {
-  box-shadow: 0 0 0 2px #38bdf8;
+/* ================= CARD ================= */
+.foodcard-container {
+  background: #020617;
+  border-radius: 16px;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* ================= TABLE ================= */
-table {
+/* ================= IMAGE ================= */
+.foodcard-container img {
   width: 100%;
-  border-collapse: collapse;
-  background-color: #020617;
-  border-radius: 14px;
-  overflow: hidden;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
 }
 
-/* ================= TABLE HEADER ================= */
-thead {
-  background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+/* ================= TEXT ================= */
+.foodcard-container p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f8fafc;
+  margin-bottom: 4px;
 }
 
-th {
-  padding: 14px 12px;
-  text-align: left;
+.foodcard-container p:nth-child(3) {
   font-size: 13px;
-  font-weight: 700;
-  color: #020617;
-  text-transform: uppercase;
-}
-
-/* ================= TABLE BODY ================= */
-td {
-  padding: 14px 12px;
-  font-size: 14px;
-  border-bottom: 1px solid #1e293b;
-  color: #e5e7eb;
-}
-
-/* Center logo column */
-td img {
-  display: block;
-  margin: auto;
-}
-
-/* ================= ROW HOVER ================= */
-tbody tr {
-  transition: background 0.2s ease, transform 0.15s ease;
-}
-
-tbody tr:hover {
-  background-color: #020617;
-  transform: scale(1.01);
-}
-
-/* ================= SYMBOL ================= */
-td:nth-child(3) {
-  text-transform: uppercase;
-  font-weight: 700;
   color: #38bdf8;
+  font-weight: 600;
+  margin-bottom: 6px;
+  text-transform: uppercase;
 }
 
-/* ================= PRICE ================= */
-td:nth-child(5) {
+.foodcard-container p:nth-child(4) {
+  font-size: 15px;
+  font-weight: 800;
   color: #22c55e;
-  font-weight: 600;
 }
 
-/* ================= MARKET CAP ================= */
-td:nth-child(4) {
-  color: #facc15;
-  font-weight: 600;
+/* ================= HOVER EFFECT ================= */
+.foodcard-container:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 25px 50px rgba(249, 115, 22, 0.4);
+}
+
+/* ================= LOADING & ERROR ================= */
+.main-container p[style*="red"] {
+  font-weight: 700;
 }
 
 /* ================= RESPONSIVE ================= */
-@media (max-width: 900px) {
-  table {
-    font-size: 12px;
+@media (max-width: 600px) {
+  .main-head {
+    font-size: 26px;
   }
 
-  th, td {
-    padding: 10px;
+  .foodcard-container img {
+    height: 140px;
   }
-
-  input {
-    width: 90%;
-  }
-}
-/* ================= SHOW MORE BUTTON ================= */
-.show-more-wrapper {
-  display: flex;
-  justify-content: center;
-  margin: 30px 0;
-}
-
-.show-more-btn {
-  padding: 12px 36px;
-  font-size: 14px;
-  font-weight: 700;
-  border-radius: 30px;
-  border: none;
-  cursor: pointer;
-  color: #020617;
-  background: linear-gradient(90deg, #0ea5e9, #38bdf8);
-  box-shadow: 0 12px 30px rgba(56, 189, 248, 0.4);
-  transition: all 0.25s ease;
-  letter-spacing: 0.5px;
-}
-
-/* Hover */
-.show-more-btn:hover {
-  transform: translateY(-2px) scale(1.05);
-  box-shadow: 0 18px 40px rgba(56, 189, 248, 0.6);
-}
-
-/* Click */
-.show-more-btn:active {
-  transform: scale(0.98);
-}
-
-/* Disabled (optional future use) */
-.show-more-btn:disabled {
-  background: #64748b;
-  cursor: not-allowed;
-  box-shadow: none;
 }

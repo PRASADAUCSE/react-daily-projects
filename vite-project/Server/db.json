@@ -1,0 +1,207 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "category": "Italian",
+      "price": 299,
+      "image": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca"
+    },
+    {
+      "id": 2,
+      "name": "Cheeseburger",
+      "category": "American",
+      "price": 349,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+    },
+    {
+      "id": 3,
+      "name": "Sushi Platter",
+      "category": "Japanese",
+      "price": 599,
+      "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351"
+    },
+    {
+      "id": 4,
+      "name": "Caesar Salad",
+      "category": "Salads",
+      "price": 249,
+      "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1"
+    },
+    {
+      "id": 5,
+      "name": "Pad Thai",
+      "category": "Thai",
+      "price": 279,
+      "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e"
+    },
+    {
+      "id": 6,
+      "name": "Chicken Tacos",
+      "category": "Mexican",
+      "price": 229,
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47"
+    },
+    {
+      "id": 7,
+      "name": "BBQ Ribs",
+      "category": "American",
+      "price": 449,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947"
+    },
+    {
+      "id": 8,
+      "name": "Pasta Carbonara",
+      "category": "Italian",
+      "price": 329,
+      "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3"
+    },
+    {
+      "id": 9,
+      "name": "Greek Salad",
+      "category": "Mediterranean",
+      "price": 199,
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe"
+    },
+    {
+      "id": 10,
+      "name": "Ramen Bowl",
+      "category": "Japanese",
+      "price": 349,
+      "image": "https://images.unsplash.com/photo-1557872943-16a5ac26437e"
+    },
+    {
+      "id": 11,
+      "name": "Fish and Chips",
+      "category": "British",
+      "price": 299,
+      "image": "https://images.unsplash.com/photo-1579208570378-8c970854bc23"
+    },
+    {
+      "id": 12,
+      "name": "Butter Chicken",
+      "category": "Indian",
+      "price": 379,
+      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398"
+    },
+    {
+      "id": 13,
+      "name": "Beef Steak",
+      "category": "American",
+      "price": 549,
+      "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e"
+    },
+    {
+      "id": 14,
+      "name": "Chicken Wings",
+      "category": "American",
+      "price": 279,
+      "image": "https://images.unsplash.com/photo-1608039755401-742074f0548d"
+    },
+    {
+      "id": 15,
+      "name": "Pho Soup",
+      "category": "Vietnamese",
+      "price": 299,
+      "image": "https://images.unsplash.com/photo-1591814468924-caf88d1232e1"
+    },
+    {
+      "id": 16,
+      "name": "Pepperoni Pizza",
+      "category": "Italian",
+      "price": 349,
+      "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e"
+    },
+    {
+      "id": 17,
+      "name": "Falafel Wrap",
+      "category": "Mediterranean",
+      "price": 199,
+      "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783"
+    },
+    {
+      "id": 18,
+      "name": "Fried Rice",
+      "category": "Chinese",
+      "price": 249,
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b"
+    },
+    {
+      "id": 19,
+      "name": "Lobster Roll",
+      "category": "Seafood",
+      "price": 499,
+      "image": "https://images.unsplash.com/photo-1619566636858-adf3ef46400b"
+    },
+    {
+      "id": 20,
+      "name": "Croissant",
+      "category": "French",
+      "price": 149,
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a"
+    },
+    {
+      "id": 21,
+      "name": "Burrito Bowl",
+      "category": "Mexican",
+      "price": 329,
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f"
+    },
+    {
+      "id": 22,
+      "name": "Tom Yum Soup",
+      "category": "Thai",
+      "price": 229,
+      "image": "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12"
+    },
+    {
+      "id": 23,
+      "name": "Pancakes",
+      "category": "Breakfast",
+      "price": 199,
+      "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445"
+    },
+    {
+      "id": 24,
+      "name": "Beef Tacos",
+      "category": "Mexican",
+      "price": 249,
+      "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b"
+    },
+    {
+      "id": 25,
+      "name": "Salmon Sashimi",
+      "category": "Japanese",
+      "price": 449,
+      "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56"
+    },
+    {
+      "id": 26,
+      "name": "Chicken Biryani",
+      "category": "Indian",
+      "price": 349,
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8"
+    },
+    {
+      "id": 27,
+      "name": "Avocado Toast",
+      "category": "Breakfast",
+      "price": 179,
+      "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d"
+    },
+    {
+      "id": 28,
+      "name": "Spring Rolls",
+      "category": "Vietnamese",
+      "price": 199,
+      "image": "https://images.unsplash.com/photo-1594837318433-96c16f6c5e99"
+    },
+    {
+      "id": 29,
+      "name": "Chicken Parmesan",
+      "category": "Italian",
+      "price": 399,
+      "image": "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8"
+    }
+  ]
+}
